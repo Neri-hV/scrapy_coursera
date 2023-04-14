@@ -1,3 +1,6 @@
+## Parsing
+Parsing es el proceso de analizar una secuencia de datos o texto, para determinar su estructura sintáctica, y extraer información útil de ella. En términos simples, es la tarea de desglosar un texto o datos en sus componentes estructurales, como palabras, frases, símbolos o elementos de datos
+*(chat-gpt3)*
 ## Parsing With HTMLParser
 
 Python has a built-in parser for HTML. Knowing how to use and take advantage of the HTMLParser library will help you when parsing is needed for simple tasks that do not need much effort.

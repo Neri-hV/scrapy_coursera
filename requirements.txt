@@ -1,4 +1,4 @@
-scrapy==2.5.1
+piscrapy==2.5.1
 ipykernel==6.15.2
 pandas==1.4.4
 matplotlib==3.5.3

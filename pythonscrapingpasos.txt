@@ -1,0 +1,27 @@
+python -m venv venv
+#Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+venv\Scripts\activate
+py -m ensurepip
+pip install scrapy
+scrapy --help
+scrapy startproject nombredelproyecto
+cd nombredelproyecto
+ls
+ls nombredelproyecto
+scrapy genspider nombrearanha nombredominiodelsitioweb
+cd nombredelproyecto\spiders
+scrapy shell nombredelsitiowebcompleto
+response
+response.xpath('//table')cuantas tablas
+
+len(response.xpath('//table')) items de la tabla
+len(response.xpath('//table')[0].xpath('tr')) asi con todos los numeros hasta encontrar el mayor
+table = response.xpath('//table')[7] 
+for row in table.xpath('//tr'):
+    try:
+        print(row.xpath('td//text()')[0].extract())  
+    except IndexError:
+        pass
+
+exit()
+scrapy 

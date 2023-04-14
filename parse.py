@@ -19,7 +19,7 @@ class ParseResults(HTMLParser):
 
 
 p = ParseResults()
-with open("html/1992_World_Junior_Championships_in_Athletics_–_Men's_high_jump") as _f:
+with open("html/1992_World_Junior_Championships_in_Athletics_–_Men's_high_jump", encoding='utf-8') as _f:
     p.feed(_f.read())
 
 print(p.title)
